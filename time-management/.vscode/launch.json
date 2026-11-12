@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Chronos Time Management (Full Stack)",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/start.js",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    },
+    {
+      "name": "Run Backend Server Only",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/server/server.js",
+      "cwd": "${workspaceFolder}/server",
+      "console": "integratedTerminal"
+    }
+  ]
+}

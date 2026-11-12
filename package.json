@@ -1,0 +1,27 @@
+{
+  "name": "time-management-software",
+  "version": "1.0.0",
+  "description": "Chronos - Time Management System for Software Engineering Lab using MERN (PCCCS594) - Roll No. 8 - UEM Kolkata",
+  "scripts": {
+    "start": "node start.js",
+    "dev": "node start.js",
+    "server": "node server/server.js",
+    "client": "npm.cmd run dev --prefix client",
+    "build": "npm.cmd run build --prefix client"
+  },
+  "keywords": [
+    "mern",
+    "time-management",
+    "pomodoro",
+    "react",
+    "express",
+    "mongodb",
+    "node",
+    "uem-kolkata"
+  ],
+  "author": "Student Roll No: 8",
+  "license": "ISC",
+  "dependencies": {
+    "pdfkit": "^0.20.2"
+  }
+}
